@@ -1,0 +1,11 @@
+# 깃 레포지토리 {USERNAME} 저장소를 local로 불러오기
+$ git clone https://github.com/{USERNAME}/{USERNAME}.github.io
+
+# 디렉토리 변경 및 파일 만들기
+$ cd {USERNAME}.github.io
+$ echo "Hello World" > index.html
+
+# 원격저장소(github)에 push
+$ git add .
+$ git commit -m "Initial commit"
+$ git push -u origin main
